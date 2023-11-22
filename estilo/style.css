@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#home, html{
+    background: #000;
+    height: 100vw;
+}
+
+main{
+    background-image: url(/imagens/netflix-fundo6.png);
+    background-blend-mode: multiply;
+    background-color: #000000c0;
+    background-size: 100% ;
+    width: 100%;
+    height: 35%;
+}
+.inputtxt{
+    display: flex;
+    border: #fff;
+    margin-left: 68vh;
+    color: white;
+    height: 50px;
+    width: 405px;
+    border-radius: 6px;
+    background-color: rgba(36, 33, 33, 0.555);
+}
+
+::placeholder{
+    padding-left: 2vh;
+    color:#ffffff79;
+
+}
+
+.inputbtn{
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content:baseline;
+    height: 60px;
+}
+
+#navbar{
+    margin: 0px;
+    margin-left:35vh;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#titulo{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 7vw;
+    font-size: 42px;
+}
+
+.botaoentra{
+    display: block;
+    justify-content: inline-block;
+    margin-top: 3vh;
+    margin-right: 40vh;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    font-size: 96%;
+    font-style: bold;
+    font-weight: 600;
+}
+.botaov{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    font-size:26px;
+    font-style: bold;
+    font-weight: 600;
+    margin-left: 0.5vh;
+}
+
+.material-symbols-outlined {
+    display: block;
+    justify-content: inline-block;
+    margin-top: 15px;
+    color: white;
+    font-size:26px;
+    font-style: bold;
+    padding-right: 15px;
+}
+   
+
+.sidioma{
+    display: block;
+    justify-content: inline-block;
+    margin-top: 3vh;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(24, 23, 23, 0.507);
+    font-size: 93%;
+    font-style: bold;
+    font-weight: 600;
+    margin-right: 2vh;
+}
+
+.pub{
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 8vh;
+    margin-top: 50px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.subtitulo{
+    color: aliceblue;
+        font-family: 'roboto', sans-serif;
+        text-align: center;
+        margin-top: 1.5vw;
+        font-size: 24px ; 
+        font-weight: 400;
+        
+}
+
+.assine{
+    color: aliceblue;
+        font-family: 'roboto', sans-serif;
+        text-align: center;
+        margin-top: 1.5vw;
+        font-size: 20px ; 
+        font-weight: 400;
+}
+#tvimg{
+    
+    z-index: 0;
+    display: inline;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 110vh;
+    
+    
+}
+.txttv{
+    position:relative;
+    left: 40vh;
+    height: 200px;
+    font-size: 2px;
+    margin-top: 18vh;
+    font-weight: 900;
+    color: #fff;
+    align-items: center;
+
+}
+
+#video{
+      transform: translate(12.8%, 23%);
+      top: 0;
+      left: 0;
+      position: absolute;
+      height: 200px;
+      width: 380px;
+    
+}
+#video2{
+  transform: translate(6%, 16.7%);
+  top: 0;
+  left: 0;
+  height: 220px;
+  width: 386px;
+  object-fit: cover;
+
+}
+
+#tv{
+  margin-block: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media (min-width: 768px){
+
+    main{
+     background-image: url(/imagens/fundonetflix.jpg);
+     height: 90vh;
+     
+    }
+    
+    #titulo{
+        padding-top: 8vh;
+
+    }
+    
+    .pub{
+        padding-right: 40px;
+        margin-top: 12vh;
+        height:137px;
+        width:200vh;
+        border-radius: 5px;
+        
+    }
+     
+    #video{
+      transform: translate(12.8%, 23%);
+      top: 0;
+      left: 0;
+      position: absolute;
+      height: 200px;
+      width: 380px;
+    
+    }
+    #video2{
+      transform: translate(6%, 16.7%);
+      top: 0;
+      left: 0;
+      height: 220px;
+      width: 386px;
+      object-fit: cover;
+    
+    }
+    #tvimg{
+        right: 20vh;
+        margin-top:15.5vh; 
+    }
+    .txttv{
+        margin-top: 30vh;
+        left: 30vh;
+    }
+
+    .assine{
+       margin-bottom: 10px;
+        
+    }
+
+}
