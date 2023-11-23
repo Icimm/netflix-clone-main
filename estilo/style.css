@@ -145,17 +145,18 @@ main{filter: brightness();
     z-index: 0;
     display: inline;
     position: absolute;
-    margin-top: 5vh;
-    margin-left: 110vh;
+    margin-top: 15vh;
+    margin-left: 100vh;
     
     
 }
 .txttv{
+    z-index: 1;
     position:relative;
-    left: 40vh;
+    left: 35vh;
     height: 200px;
     font-size: 2px;
-    margin-top: 18vh;
+    margin-top: 20vh;
     font-weight: 900;
     color: #fff;
     align-items: center;
@@ -163,25 +164,25 @@ main{filter: brightness();
 }
 
 #video{
-      transform: translate(12.8%, 23%);
+      transform: translate(18.5%, 38%);
       top: 0;
       left: 0;
       position: absolute;
-      height: 200px;
-      width: 380px;
+      height: 245px;
+      width: 435px;
     
 }
 #video2{
-  transform: translate(6%, 16.7%);
   top: 0;
   left: 0;
-  height: 220px;
-  width: 386px;
+  height: 245px;
+  width: 435px;
   object-fit: cover;
 
 }
 
 #tv{
+ padding-left: 40px;
   margin-block: 3rem;
   display: flex;
   align-items: center;
@@ -189,58 +190,3 @@ main{filter: brightness();
 }
 
 
-@media (min-width: 768px){
-
-    main{
-     background-image: url(/imagens/fundonetflix.jpg);
-     height: 90vh;
-     
-    }
-    
-    #titulo{
-        padding-top: 8vh;
-
-    }
-    
-    .pub{
-        padding-right: 40px;
-        margin-top: 12vh;
-        height:137px;
-        width:200vh;
-        border-radius: 5px;
-         
-    }
-     
-    #video{
-      transform: translate(12.8%, 23%);
-      top: 0;
-      left: 0;
-      position: absolute;
-      height: 200px;
-      width: 380px;
-    
-    }
-    #video2{
-      transform: translate(6%, 16.7%);
-      top: 0;
-      left: 0;
-      height: 220px;
-      width: 386px;
-      object-fit: cover;
-    
-    }
-    #tvimg{
-        right: 20vh;
-        margin-top:15.5vh; 
-    }
-    .txttv{
-        margin-top: 30vh;
-        left: 30vh;
-    }
-
-    .assine{
-       margin-bottom: 10px;
-        
-    }
-
-}

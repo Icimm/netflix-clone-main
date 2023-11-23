@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 992px){
+
+    main{
+     background-image: url(/imagens/fundonetflix.jpg);
+     height: 90vh;
+     
+    }
+    
+    #titulo{
+        padding-top: 8vh;
+
+    }
+    
+    .pub{
+        padding-right: 40px;
+        margin-top: 12vh;
+        height:137px;
+        width:200vh;
+        border-radius: 5px;
+         
+    }
+     
+    #video{
+      transform: translate(18.5%, 38.8%);
+      top: 0;
+      left: 0;
+      position: absolute;
+      height: 240px;
+      width: 430px;
+    
+    }
+    #video2{
+      top: 0;
+      left: 0;
+      height: 245px;
+      width: 435px;
+      object-fit: cover;
+    
+    }
+    #tvimg{
+        right: 20vh;
+        margin-top:15.5vh; 
+    }
+    .txttv{
+        margin-top: 30vh;
+        left: 30vh;
+    }
+
+    .assine{
+       margin-bottom: 10px;
+        
+    }
+
+}
