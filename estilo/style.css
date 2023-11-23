@@ -11,8 +11,9 @@ box-sizing: border-box;
     height: 100vw;
 }
 
-main{
+main{filter: brightness();
     background-image: url(/imagens/netflix-fundo6.png);
+    box-shadow: inset 0px 10px 30px 30px rgba(0, 0, 0, 0.63); 
     background-blend-mode: multiply;
     background-color: #000000c0;
     background-size: 100% ;
@@ -207,7 +208,7 @@ main{
         height:137px;
         width:200vh;
         border-radius: 5px;
-        
+         
     }
      
     #video{
